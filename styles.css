@@ -1,0 +1,105 @@
+/* Estilos para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cfcf01; /* Cor amarela de background */
+  color: black; /* Cor da fonte */
+  border: 2px solid #0a0a0a;
+}
+
+/* Estilos para o botão de retorno à página principal */
+.back-to-home {
+  background-color: #cfcf01;
+  color: #0e0e0d;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 2px solid #0e0d0d;
+}
+
+/* Estilos para a caixa de pesquisa */
+.search-box {
+  background-color: #cfcf01;
+  color: rgb(15, 15, 15);
+  padding: 70px;
+  text-align: center;
+  border: 2px solid #0e0d0d;
+}
+
+/* Estilos para a barra de pesquisa */
+.search-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 2px solid #0e0d0d;
+}
+
+/* Estilos para a barra lateral (menu) */
+.sidebar {
+  background-color: #cfcf01;
+  color: rgb(20, 20, 20);
+  width: 250px;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 2px solid #0a0a0a;
+  z-index: 100; /* Garante que a barra lateral apareça sobre o conteúdo */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.sidebar ul li a {
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+}
+
+/* Estilos para submenus */
+.sidebar ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #cfcf01;
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #0a0a0a;
+}
+
+.sidebar ul li:hover > ul {
+  display: block;
+}
+
+/* Estilos para o conteúdo principal */
+.content {
+  margin-left: 310px;
+  padding: 50px;
+  border: 2px solid #0a0a0a;
+  background-color: white;
+}
+
+/* Estilos para links dentro do conteúdo */
+.content a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Estilos para cabeçalhos dentro do conteúdo */
+.content h1, .content h2, .content h3 {
+  color: #0e0d0d;
+}
