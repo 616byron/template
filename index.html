@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template com Menus Horizontais e Pesquisa</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="back-to-home" onclick="mostrarConteudo('Bem-vindo ao template!')">Voltar para a tela inicial</div>
+<div class="search-box">
+  <input type="text" class="search-input" placeholder="Pesquisar templates">
+</div>
+<div class="sidebar">
+  <ul>
+    <li>
+      <a href="#">Bolsas Governamentais</a>
+      <ul>
+        <!-- ... Outras opções do menu ... -->
+      </ul>
+    </li>
+    <!-- ... Mais menus ... -->
+  </ul>
+</div>
+<div class="content">
+  <div id="conteudo-template">
+    <h1>Bem-vindo ao template!</h1>
+    <p>Escolha uma opção nos menus verticais à esquerda para ver o conteúdo correspondente aqui.</p>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
